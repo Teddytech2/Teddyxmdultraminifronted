@@ -6,11 +6,11 @@ const CONFIG = {
   // Server 1–5 currently all use your supplied Heroku server.
   // Replace individual URLs whenever you have different servers.
   servers: [
-    "https://teddyxmdultraminifinal-14c420cbedd9.herokuapp.com/",
-    "https://teddyxmdultraminifinal-14c420cbedd9.herokuapp.com/",
-    "https://teddyxmdultraminifinal-14c420cbedd9.herokuapp.com/",
-    "https://teddyxmdultraminifinal-14c420cbedd9.herokuapp.com/",
-    "https://teddyxmdultraminifinal-14c420cbedd9.herokuapp.com/"
+    "https://teddytech-374dcd019c6d.herokuapp.com/",
+    "https://teddytech-374dcd019c6d.herokuapp.com/",
+    "https://teddytech-374dcd019c6d.herokuapp.com/",
+    "https://teddytech-374dcd019c6d.herokuapp.com/",
+    "https://teddytech-374dcd019c6d.herokuapp.com/"
   ],
 
   github: "https://github.com/Teddyxmd/TEDDY-XMD",

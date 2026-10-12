@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +46,9 @@
 
         <div class="hero-actions">
           <a class="btn primary" href="#servers">⚡ Pair Your WhatsApp</a>
-          <a class="btn secondary" id="githubBtn" href="#" target="_blank" rel="noopener">⌘ GitHub</a>
+          <a class="btn secondary" id="githubBtn"
+             href="https://github.com/Teddyxmd/TEDDY-XMD"
+             target="_blank" rel="noopener noreferrer">⌘ GitHub</a>
         </div>
 
         <div class="stats">
@@ -79,9 +82,9 @@
         <article class="feature"><div class="icon">🛡️</div><h3>Group Protection</h3><p>Anti-link, anti-delete, anti-spam, anti-badword and security tools.</p></article>
         <article class="feature"><div class="icon">⬇️</div><h3>Downloader</h3><p>Download media from YouTube, TikTok, Instagram and other platforms.</p></article>
         <article class="feature"><div class="icon">🤖</div><h3>AI Power</h3><p>Chatbot, AI images, translation, text-to-speech and smart utilities.</p></article>
-        <article class="feature"><div class="icon">🎨</div><h3>Media & Stickers</h3><p>Create stickers, convert media, edit content and enjoy creative tools.</p></article>
+        <article class="feature"><div class="icon">🎨</div><h3>Media &amp; Stickers</h3><p>Create stickers, convert media, edit content and enjoy creative tools.</p></article>
         <article class="feature"><div class="icon">🧰</div><h3>Utilities</h3><p>Useful everyday commands, search tools, information and automation.</p></article>
-        <article class="feature"><div class="icon">🎮</div><h3>Fun & Games</h3><p>Keep your group active with games, fun commands and interactions.</p></article>
+        <article class="feature"><div class="icon">🎮</div><h3>Fun &amp; Games</h3><p>Keep your group active with games, fun commands and interactions.</p></article>
         <article class="feature"><div class="icon">👑</div><h3>Owner Tools</h3><p>Powerful developer and owner controls for managing your bot.</p></article>
       </div>
     </section>
@@ -99,6 +102,7 @@
           <div class="command-cat"><b>🎵 DOWNLOADER</b><code>.play song</code><code>.ytmp4 link</code><code>.tiktok link</code><code>.ig link</code></div>
           <div class="command-cat"><b>🤖 AI</b><code>.ai question</code><code>.imagine prompt</code><code>.translate text</code><code>.tts text</code></div>
         </div>
+
         <div class="terminal">
           <div class="terminal-top"><i></i><i></i><i></i><span>TEDDY-XMD ULTRA</span></div>
           <pre><span class="pink">$</span> .menu
@@ -123,15 +127,38 @@
       <div class="section-heading">
         <span>TEDDY AI ASSISTANT</span>
         <h2>Ask anything. Get <em>answers.</em></h2>
-        <p>Try the TEDDY-XMD ULTRA website assistant, powered Teddy Tech API used for bot AI replies.</p>
+        <p>Try the TEDDY-XMD ULTRA website assistant, powered by Teddy Tech API used for bot AI replies.</p>
       </div>
+
       <div class="chat-shell">
-        <div class="chat-head"><div class="ai-avatar">✦</div><div><strong>Teddy AI</strong><small><i></i> AI assistant · Teddy Tech</small></div><span class="chat-model">GEMINI API</span></div>
-        <div class="chat-messages" id="chatMessages" aria-live="polite" aria-label="Chat messages">
-          <div class="chat-message assistant"><span class="message-avatar">✦</span><div class="bubble"><b>Hey! 👋 I'm Teddy AI.</b><p>Ask me a question, get help with coding, or learn about TEDDY-XMD ULTRA.</p></div></div>
+        <div class="chat-head">
+          <div class="ai-avatar">✦</div>
+          <div><strong>Teddy AI</strong><small><i></i> AI assistant · Teddy Tech</small></div>
+          <span class="chat-model">GEMINI API</span>
         </div>
-        <div class="chat-suggestions"><button type="button" data-prompt="What can TEDDY-XMD ULTRA do?">What can this bot do?</button><button type="button" data-prompt="Give me tips for securing a WhatsApp group.">WhatsApp group security</button><button type="button" data-prompt="Help me debug a JavaScript error.">Coding help</button></div>
-        <form class="chat-form" id="chatForm"><label class="sr-only" for="chatInput">Ask Teddy AI</label><textarea id="chatInput" rows="1" maxlength="4000" placeholder="Ask Teddy AI anything…" required></textarea><button type="submit" id="chatSend" aria-label="Send question"><span>Send</span><b>↑</b></button></form>
+
+        <div class="chat-messages" id="chatMessages" aria-live="polite" aria-label="Chat messages">
+          <div class="chat-message assistant">
+            <span class="message-avatar">✦</span>
+            <div class="bubble">
+              <b>Hey! 👋 I'm Teddy AI.</b>
+              <p>Ask me a question, get help with coding, or learn about TEDDY-XMD ULTRA.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-suggestions">
+          <button type="button" data-prompt="What can TEDDY-XMD ULTRA do?">What can this bot do?</button>
+          <button type="button" data-prompt="Give me tips for securing a WhatsApp group.">WhatsApp group security</button>
+          <button type="button" data-prompt="Help me debug a JavaScript error.">Coding help</button>
+        </div>
+
+        <form class="chat-form" id="chatForm">
+          <label class="sr-only" for="chatInput">Ask Teddy AI</label>
+          <textarea id="chatInput" rows="1" maxlength="4000" placeholder="Ask Teddy AI anything…" required></textarea>
+          <button type="submit" id="chatSend" aria-label="Send question"><span>Send</span><b>↑</b></button>
+        </form>
+
         <p class="chat-note">AI can make mistakes. Don't share passwords, private keys, or sensitive personal information.</p>
       </div>
     </section>
@@ -142,7 +169,6 @@
         <h2>Choose a <em>server.</em></h2>
         <p>Servers 1–5 currently point to your Heroku server. You can change them later in <b>script.js</b>.</p>
       </div>
-
       <div class="server-grid" id="serverGrid"></div>
     </section>
 
@@ -180,10 +206,35 @@
   <footer>
     <div class="footer-brand">
       <img src="https://url.bmbxmd.workers.dev/1JNK9.jpg" alt="TEDDY-XMD">
-      <div><strong>TEDDY-XMD ULTRA</strong><span>Powered by Teddy Tech</span></div>
+      <div>
+        <strong>TEDDY-XMD ULTRA</strong>
+        <span>Powered by Teddy Tech</span>
+      </div>
     </div>
     <p>© <span id="year"></span> Teddy Tech. All rights reserved.</p>
   </footer>
+
+  <!-- Advertisement service-worker registration -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker
+          .register("/sw.js")
+          .then(function (registration) {
+            console.log(
+              "TEDDY-XMD ULTRA service worker registered:",
+              registration.scope
+            );
+          })
+          .catch(function (error) {
+            console.error(
+              "Advertisement service worker registration failed:",
+              error
+            );
+          });
+      });
+    }
+  </script>
 
   <script src="script.js"></script>
 </body>
